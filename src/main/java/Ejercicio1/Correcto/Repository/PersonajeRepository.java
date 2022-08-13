@@ -1,4 +1,7 @@
-package Ejercicio1.Correcto;
+package Ejercicio1.Correcto.Repository;
+
+import Ejercicio1.Correcto.Entities.PersonajeEntity;
+import Ejercicio1.Correcto.dto.PersonajeDTO;
 
 import java.util.ArrayList;
 import java.util.List;

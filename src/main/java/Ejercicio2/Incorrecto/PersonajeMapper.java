@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Ejercicio2.Incorrecto;
 
 public class PersonajeMapper {
 

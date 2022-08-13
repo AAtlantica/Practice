@@ -1,15 +1,13 @@
-package Ejercicio2;
+package Ejercicio2.Correcto;
 
-public class PersonajeEntity {
+public class PersonajeDTO {
     private String imagen;
     private String nombre;
     private Integer edad;
     private Double peso;
     private String historia;
 
-    private PeliculaEntity peliculaEntity;
-
-
+    private PeliculaDTO peliculaDTO;
     public String getImagen() {
         return imagen;
     }
@@ -50,12 +48,12 @@ public class PersonajeEntity {
         this.historia = historia;
     }
 
-    public PeliculaEntity getPeliculaEntity() {
-        return peliculaEntity;
+    public PersonajeDTO getPeliculaDTO() {
+        return peliculaDTO;
     }
 
-    public void setPeliculaEntity(PeliculaEntity peliculaEntity) {
-        this.peliculaEntity = peliculaEntity;
+    public void setPeliculaDTO(PeliculaDTO peliculaDTO) {
+        this.peliculaDTO = peliculaDTO;
     }
 
     @Override

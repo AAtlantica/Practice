@@ -1,6 +1,6 @@
-package Ejercicio1.Correcto;
+package Ejercicio1.Correcto.dto;
 
-class PersonajeDTO{
+public class PersonajeDTO{
 
     private String imagen;
     private String nombre;

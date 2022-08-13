@@ -1,0 +1,19 @@
+package Ejercicio2.Correcto;
+
+
+
+public class PersonajeMapper {
+
+    public PersonajeEntity toEntity(PersonajeDTO personajeDTO){
+        PersonajeEntity personajeEntity = new PersonajeEntity();
+        personajeEntity.setImagen(personajeDTO.getImagen());
+        personajeEntity.setNombre(personajeDTO.getNombre());
+        personajeEntity.setEdad(personajeDTO.getEdad());
+        personajeEntity.setPeso(personajeDTO.getPeso());
+        personajeEntity.setHistoria(personajeDTO.getHistoria());
+        personajeEntity.setPeliculaEntity(
+                toEntity(personajeDTO.getPeliculaDTO()).getPeliculaEntity()
+        );
+        return personajeEntity;
+    }
+}
