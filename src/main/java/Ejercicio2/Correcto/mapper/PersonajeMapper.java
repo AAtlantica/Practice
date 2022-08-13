@@ -1,6 +1,8 @@
-package Ejercicio2.Correcto;
+package Ejercicio2.Correcto.mapper;
 
 
+import Ejercicio2.Correcto.DTO.PersonajeDTO;
+import Ejercicio2.Correcto.entities.PersonajeEntity;
 
 public class PersonajeMapper {
 

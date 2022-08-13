@@ -1,11 +1,11 @@
-package Ejercicio2.Correcto;
+package Ejercicio2.Correcto.mapper;
 
-import Ejercicio2.Incorrecto.PeliculaDTO;
-import Ejercicio2.Incorrecto.PeliculaEntity;
+import Ejercicio2.Correcto.DTO.PeliculaDTO;
+import Ejercicio2.Correcto.entities.PeliculaEntity;
 
 public class PeliculaMapper {
-    public Ejercicio2.Incorrecto.PeliculaEntity toEntity(PeliculaDTO peliculaDTO){
-        Ejercicio2.Incorrecto.PeliculaEntity peliculaEntity = new PeliculaEntity();
+    public PeliculaEntity toEntity(PeliculaDTO peliculaDTO){
+        PeliculaEntity peliculaEntity = new PeliculaEntity();
         peliculaEntity.setImagen(peliculaDTO.getImagen());
         peliculaEntity.setTitulo(peliculaDTO.getTitulo());
         peliculaEntity.setCalificacion(peliculaDTO.getCalificacion());
