@@ -47,14 +47,7 @@ public class PersonajeDTO {
     public void setHistoria(String historia) {
         this.historia = historia;
     }
-
-    public PersonajeDTO getPeliculaDTO() {
-        return peliculaDTO;
-    }
-
-    public void setPeliculaDTO(PeliculaDTO peliculaDTO) {
-        this.peliculaDTO = peliculaDTO;
-    }
+    
 
     @Override
     public String toString() {
