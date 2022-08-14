@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Ejercicio1.Incorrecto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -135,3 +135,8 @@ class PersonajeDTO{
                 '}';
     }
 }
+
+
+
+
+

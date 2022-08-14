@@ -1,7 +1,6 @@
-package Ejercicio2;
+package Ejercicio2.Correcto.DTO;
 
 public class PeliculaDTO {
-
     private String imagen;
     private String titulo;
     private Integer calificacion;
