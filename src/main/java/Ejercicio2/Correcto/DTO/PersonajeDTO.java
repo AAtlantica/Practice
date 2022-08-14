@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Ejercicio2.Correcto.DTO;
 
 public class PersonajeDTO {
     private String imagen;
@@ -47,14 +47,7 @@ public class PersonajeDTO {
     public void setHistoria(String historia) {
         this.historia = historia;
     }
-
-    public PeliculaDTO getPeliculaDTO() {
-        return peliculaDTO;
-    }
-
-    public void setPeliculaDTO(PeliculaDTO peliculaDTO) {
-        this.peliculaDTO = peliculaDTO;
-    }
+    
 
     @Override
     public String toString() {

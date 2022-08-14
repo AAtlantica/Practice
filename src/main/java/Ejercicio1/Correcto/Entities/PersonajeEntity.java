@@ -1,14 +1,12 @@
-package Ejercicio2;
+package Ejercicio1.Correcto.Entities;
 
 public class PersonajeEntity {
+
     private String imagen;
     private String nombre;
     private Integer edad;
     private Double peso;
     private String historia;
-
-    private PeliculaEntity peliculaEntity;
-
 
     public String getImagen() {
         return imagen;
@@ -50,17 +48,9 @@ public class PersonajeEntity {
         this.historia = historia;
     }
 
-    public PeliculaEntity getPeliculaEntity() {
-        return peliculaEntity;
-    }
-
-    public void setPeliculaEntity(PeliculaEntity peliculaEntity) {
-        this.peliculaEntity = peliculaEntity;
-    }
-
     @Override
     public String toString() {
-        return "PersonajeDTO{" +
+        return "PersonajeEntity{" +
                 "imagen='" + imagen + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", edad=" + edad +

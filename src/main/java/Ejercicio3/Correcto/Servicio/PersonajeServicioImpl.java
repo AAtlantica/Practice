@@ -1,4 +1,4 @@
-package Ejercicio3.impl;
+package Ejercicio3.Correcto.Servicio;
 
 public interface PersonajeServicioImpl {
 }
