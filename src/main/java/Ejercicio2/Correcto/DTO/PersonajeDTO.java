@@ -47,7 +47,7 @@ public class PersonajeDTO {
     public void setHistoria(String historia) {
         this.historia = historia;
     }
-    
+
 
     @Override
     public String toString() {
